@@ -1,0 +1,55 @@
+.bg{
+    height: 100dvh;
+    background-color: var(--Dark-Navy);
+}
+
+
+.containerAuxiliar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.corIphone{
+    margin-top: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50.3%;
+}
+
+.buttonColor{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.black{
+    background-color: var(--Iphone-Preto);
+}
+
+.rose{
+    background-color: var(--Iphone-Rose);
+}
+
+.gray{
+    background-color: var(--Iphone-Gray);
+}
+
+.white{
+    background-color: var(--Iphone-White);
+}
+
+.border{
+    border: 3px solid var(--Black);
+}
+
+
+.selected {
+    border: 3px solid var(--Bright-White); /* Borda verde para o botão selecionado */
+}

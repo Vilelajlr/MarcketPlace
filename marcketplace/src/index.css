@@ -1,13 +1,45 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  height: 100dvh;
+}
+
+:root{
+  --Neon-Blues: #00ffff;
+  --Dark-Navy: #0a0f29;
+  --Eletric-Purple: #a020f0;
+  --Silver-Gray: #c0c0c0;
+  --Bright-White: #f1f1f1;
+  --Neon-Green: #39ff14;
+  --Black: #000;
+  --White: #fff;
+  --Iphone-Preto: #484848;
+  --Iphone-Rose: #c3aa96;
+  --Iphone-Gray: #c9c2b8;
+  --Iphone-White: #f2f1ed;
+
+  --Font-OpenSans: 'Open Sans', sans-serif;
+  --Font-Montserrat: 'Montserrat', sans-serif;
+  --Font-Exo: 'Exo 2', sans-serif;
+  --Font-Roboto: 'Roboto', sans-serif;
+
+}
+
+
+h1{
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--Bright-White);
+  font-family: var(--Font-Montserrat);
+}
+
+p{
+  font-size: 1rem;
+  color: var(--Bright-White);
+  font-family: var(--Font-OpenSans);
 }
