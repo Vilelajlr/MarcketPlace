@@ -1,0 +1,81 @@
+.sectionLinhaGalaxy{
+    min-height: 80dvh;
+    padding: 70px;
+}
+
+.interfaceLinhaGalaxy{
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+
+.tituloLinhaGalaxy{
+    text-align: center;
+
+    h1{
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: var(--Black);
+        font-family: var(--Font-Montserrat);
+    }
+}
+
+.flexLinhaGalaxy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 100px;
+}
+
+
+.imgLinhaGalaxy{
+    img{
+        width: 100%;
+        max-width: 800px;
+    }
+
+    width: 500px;
+
+}
+
+
+
+.txtLinhaGalaxy{
+    width: 450px;
+
+    p{
+        text-align: justify;
+        font-size: 1.2rem;
+        color: var(--Black);
+    }
+
+
+}
+
+
+.buttonLinhaGalaxy{
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    button{
+        padding: 15px 13px;
+        border: none;
+        border-radius: 30px;
+        background-color: var(--Dark-Navy);
+        color: var(--Bright-White);
+        font-size: 1.12rem;
+        font-weight: bold;
+        font-family: var(--Font-Roboto);
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    button:hover{
+        transform: scale(1.05);
+    }
+}

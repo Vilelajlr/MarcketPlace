@@ -28,7 +28,7 @@ export default function Navbar() {
                 <div className={styles.ajuste}>
                     <nav className={styles.navbar}>
                         <div className={styles.menu}>
-                            <ScrollLink to="home" smooth={true} duration={500}>
+                            <ScrollLink to="/" smooth={true} duration={500}>
                                 <div className={styles.logo}>
                                     <h1 className={styles.txt_logo}>
                                         Byte <span className={styles.span_logo}>Market</span>

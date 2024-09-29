@@ -7,6 +7,7 @@ import IphoneWhite from '../components/imgs/IphoneWhite.png';
 import IphoneGray from '../components/imgs/IphoneGray.png';
 import IphoneRose from '../components/imgs/IphoneRose.png';
 import Linhaapple from "../components/Linhaapple";
+import Linhagalaxy from "../components/Linhagalaxy";
 
 export default function Home() {
     const [cashPrice, setCashPrice] = React.useState('');
@@ -93,7 +94,7 @@ export default function Home() {
             </main>
 
             <Linhaapple />
-
+            <Linhagalaxy />
 
 
         </div>
